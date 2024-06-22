@@ -1,0 +1,141 @@
+
+* {
+    box-sizing:content-box;
+  }
+  .image1
+  {
+    margin: 120px ;
+  }
+  .image2
+  {
+    margin: 130px ;
+  }
+  .image3
+  {
+    margin: 120px ;
+  }
+  .image4
+  {
+    margin: 130px ;
+  }
+  .image5
+  {
+    margin:150px;
+  }
+img{
+    border-radius:40%;
+}    
+.column {
+    float: left;
+    width: 34%;
+     padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+    body {
+        /*background-color:color(srgb   #EAFAF1, #E8DAEF,#E5E8E8 );*/
+        background-image: linear-gradient(150deg,  rgb(170, 209, 243), #E8DAEF,#73cccc );
+      font-family:cursive;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+    /*  background-color: #f2f2f2;*/
+    background-image: linear-gradient(150deg,  rgb(170, 209, 243), #E8DAEF,#94dfdf );
+      padding: 20px;
+      text-align: center;
+      font-size: 150% ;
+    }
+    h1 {
+      color: #333;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 145%;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    .About{
+        background-color:pink;
+        padding: 10px;
+        text-align: left;
+        font-size: 145%;
+    }
+       section {
+        padding: 30px;
+      }
+    form input,
+form textarea {
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+form button {
+  background-color:purple;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+    footer {
+      background-color: #333;
+      color: #fff;
+     padding: 10px;
+      text-align: center;
+    }
+    .image {
+      position: relative;
+      display: inline-block;
+      
+    }
+    .overlay {
+      margin: 120px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 70%;
+      height: 70%;
+      background-color: rgba(0, 0, 0, 0.2);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      border-radius:40%;
+    }
+    
+    
+    .image:hover .overlay {
+      opacity: 1;
+    }
+   
+    .about {
+      width: 70em;
+      border: 3px solid pink;
+      box-shadow: 9px 6px 4px #926fa1;
+      padding: 7px 11px;
+     /* background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );*/
+     background-image: linear-gradient(150deg, #E8DAEF 30%,#E5E8E8 );
+  }
+    
